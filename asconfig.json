@@ -1,0 +1,19 @@
+{
+  "targets": {
+    "debug": {
+      "binaryFile": "dist/muphy.wasm",
+      "textFile": "dist/muphy.wat",
+      "sourceMap": true,
+      "debug": true
+    },
+    "release": {
+      "binaryFile": "dist/muphy.wasm",
+      "sourceMap": true,
+      "optimizeLevel": 3,
+      "shrinkLevel": 0,
+      "converge": false,
+      "noAssert": true
+    }
+  },
+  "options": {}
+}
